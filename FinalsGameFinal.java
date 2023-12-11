@@ -7,6 +7,7 @@ public class FinalsGameFinal {
 
     int a;
     int b;
+    int c;
 
     //INVENTORY HASHMAP FOR STORING STUFF BOTH STRING AND INT
     static HashMap<String, Integer> inventory = new HashMap();
