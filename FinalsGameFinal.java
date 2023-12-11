@@ -5,6 +5,8 @@ import java.util.Scanner;
 
 public class FinalsGameFinal {
 
+    int a;
+
     //INVENTORY HASHMAP FOR STORING STUFF BOTH STRING AND INT
     static HashMap<String, Integer> inventory = new HashMap();
 
