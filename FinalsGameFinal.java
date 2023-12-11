@@ -112,7 +112,7 @@ public class Main {
     //MAIN METHOD END
     //GAME OVER METHOD
     public static void gameOver(Hero player) {
-        System.out.println(player.name + "'s hp dropped to " + player.hp + " and has fallen. \n" + "GAME OVER");
+        System.out.println(player.name + "'s hp dropped to " + player.hp + " and has fallen.");
         Enter();
         System.out.println("\033[H\033[2J");
     System.out.println("""   ▄████  ▄▄▄       ███▄ ▄███▓▓█████     ▒█████   ██▒   █▓▓█████  ██▀███  
