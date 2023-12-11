@@ -1,14 +1,9 @@
-package finalsgame.pkgfinal;
+
 
 import java.util.HashMap;
 import java.util.Scanner;
 
-public class FinalsGameFinal {
-
-    int a;
-    int b;
-    int c;
-
+public class Main {
     //INVENTORY HASHMAP FOR STORING STUFF BOTH STRING AND INT
     static HashMap<String, Integer> inventory = new HashMap();
 
@@ -21,7 +16,15 @@ public class FinalsGameFinal {
 
     public static void main(String[] args) {
 
-
+  
+        System.out.println("""
+                            __ __ __ _ ______ _______ ______ _______ _______ ___ ___ 
+                           | | | || | | || | | || _ | | || || | | |
+                           | | | || |_| || _ || ___|| | || |_ _|| ___|| | |___|
+                           | |_| || || | | || |___ | |_||_ | | | |___ | | ___ 
+                           | || _ || |_| || ___|| __ | | | | ___|| |___ |_ |
+                           | || | | || || |___ | | | | | | | |___ | | |_|
+                           |_______||_| |__||______| |_______||___| |_| |___| |_______||_______| """);
         //INITIALIZED AN OBJECT OF CLASS HERO NAMED "PLAYER" WHICH WILL BE USED FOR: INVENTORY, IDENTIFYING THE PLAYER, FIGHT SEQUENCES.
         System.out.println("Enter The Name Of Player");
         String name = input.nextLine();
@@ -976,8 +979,14 @@ public class FinalsGameFinal {
                     }
 
             }
+            
         }
+        
     }
+    
+    
+    
+    
 
     //INVENTORY SEGMENT
     //THIS METHOD  IS USED TO "SEARCH" AND CONSUME ITEMS FROM THE HASHMAP INVENTORY.
